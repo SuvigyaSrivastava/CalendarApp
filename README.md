@@ -35,8 +35,7 @@ The application has been deployed and is accessible at the following link: [Cale
 ## Folder Structure
 
 ```plaintext
-src/
-├── components/    # Reusable React components
+src    # Reusable React components
 ├── pages/         # Main application pages
 ├── utils/         # Utility functions for API integration
 ├── App.js         # Root application component
