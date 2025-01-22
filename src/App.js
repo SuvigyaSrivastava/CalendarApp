@@ -27,6 +27,7 @@ function App() {
       provider: 'google',
       options: {
         scopes: 'https://www.googleapis.com/auth/calendar',
+        redirectTo: 'https://calendar-app-eta-nine.vercel.app',
       },
     });
     if (error) {
