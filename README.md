@@ -16,13 +16,12 @@ The application has been deployed and is accessible at the following link: [Cale
 ## How to Run the Project Locally
 
 1. **Clone the repository**: `git clone <repository-url>`
-2. **Navigate to the project directory**: `cd calendar-app`
+2. **Navigate to the project directory**: `cd GoogleCalendarAPIReactSupabase`
 3. **Install dependencies**: `npm install`
 4. **Set up environment variables**: Create a `.env` file in the root directory and add the following:  
    `REACT_APP_SUPABASE_URL=your-supabase-url`  
    `REACT_APP_SUPABASE_KEY=your-supabase-key`  
-   `REACT_APP_GOOGLE_CLIENT_ID=your-google-client-id`  
-   `REACT_APP_GOOGLE_API_KEY=your-google-api-key`
+ 
 5. **Start the development server**: `npm start`
 6. **Access the application locally**: Open your browser and navigate to `http://localhost:3000`.
 
