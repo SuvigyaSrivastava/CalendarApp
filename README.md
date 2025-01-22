@@ -16,14 +16,25 @@ The application has been deployed and is accessible at the following link: [Cale
 ## How to Run the Project Locally
 
 1. **Clone the repository**: `git clone <repository-url>`
-2. **Navigate to the project directory**: `cd GoogleCalendarAPIReactSupabase`
+2. **Navigate to the project directory**: `cd calendar-app`
 3. **Install dependencies**: `npm install`
 4. **Set up environment variables**: Create a `.env` file in the root directory and add the following:  
    `REACT_APP_SUPABASE_URL=your-supabase-url`  
    `REACT_APP_SUPABASE_KEY=your-supabase-key`  
- 
+   `REACT_APP_GOOGLE_CLIENT_ID=your-google-client-id`  
+   `REACT_APP_GOOGLE_API_KEY=your-google-api-key`
 5. **Start the development server**: `npm start`
 6. **Access the application locally**: Open your browser and navigate to `http://localhost:3000`.
+
+## **Important Note**
+
+While signing in with Google, you may encounter the following warning message:  
+**"Google hasn’t verified this app. The app is requesting access to sensitive info in your Google Account. Until the developer (srivastavasuvigya@gmail.com) verifies this app with Google, you shouldn't use it."**
+
+- To proceed, click on **"Go to vuacldbohptgllwdlzuv.supabase.co (unsafe)"** under the "Advanced" options.
+
+
+For any issues or further clarifications, feel free to reach out to the developer at **suvigyasrvstva@gmail.com**.
 
 ## Tech Stack
 
@@ -35,7 +46,8 @@ The application has been deployed and is accessible at the following link: [Cale
 ## Folder Structure
 
 ```plaintext
-src    # Reusable React components
+src/
+├── components/    # Reusable React components
 ├── pages/         # Main application pages
 ├── utils/         # Utility functions for API integration
 ├── App.js         # Root application component
